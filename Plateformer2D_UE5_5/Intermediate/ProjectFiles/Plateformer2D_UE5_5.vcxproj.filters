@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Plateformer2D_UE5_5Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,18 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Plateformer2D_UE5_5\Plateformer2D_UE5_5.h">
       <Filter>Source\Plateformer2D_UE5_5</Filter>
+    </ClCompile>
+    <Filter Include="Source\Plateformer2D_UE5_5\Private">
+      <UniqueIdentifier>{64428719-F192-303E-A760-21AB3D0DDBB1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Plateformer2D_UE5_5\Private\TestCreation.cpp">
+      <Filter>Source\Plateformer2D_UE5_5\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Plateformer2D_UE5_5\Public">
+      <UniqueIdentifier>{6DAA7AB2-9F98-384C-928B-68CFF2928FE4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Plateformer2D_UE5_5\Public\TestCreation.h">
+      <Filter>Source\Plateformer2D_UE5_5\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
