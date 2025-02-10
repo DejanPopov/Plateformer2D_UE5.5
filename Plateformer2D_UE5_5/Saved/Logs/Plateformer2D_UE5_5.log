@@ -1478,3 +1478,85 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.10-21.34.38:987][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D_Auto1
 [2025.02.10-21.34.38:987][504]LogSavePackage: Moving '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Saved/BP_GMPlateformer2D_Auto1AEDF16F54680CCE8D6039190DFCC4D36.tmp' to '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Saved/Autosaves/Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D_Auto1.uasset'
 [2025.02.10-21.34.38:988][504]LogFileHelpers: Auto-saving content packages took 0.008
+[2025.02.10-21.35.57:850][769]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1673.941284
+[2025.02.10-21.35.58:017][789]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.10-21.35.58:017][789]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1674.100708, Update Interval: 344.382446
+[2025.02.10-21.36.14:049][548]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.10-21.36.14:106][548]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.02.10-21.36.23:263][590]LogLiveCoding: Display:    Creating library Z:\UE_Projects\Plateformer2D_UE5.5\Plateformer2D_UE5_5\Binaries\Win64\UnrealEditor-Plateformer2D_UE5_5.patch_0.lib and object Z:\UE_Projects\Plateformer2D_UE5.5\Plateformer2D_UE5_5\Binaries\Win64\UnrealEditor-Plateformer2D_UE5_5.patch_0.exp
+[2025.02.10-21.36.23:392][590]LogClass: UPackage /Script/Plateformer2D_UE5_5 Reload.
+[2025.02.10-21.36.23:393][590]LogClass: Could not find existing class Plateformer2DPC in package /Script/Plateformer2D_UE5_5 for reload, assuming new or modified class
+[2025.02.10-21.36.23:446][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.02.10-21.36.24:256][591]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2025.02.10-21.36.24:256][591]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.10-21.37.54:758][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.10-21.37.54:799][218]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D] ([2] browsable assets)...
+[2025.02.10-21.37.54:799][218]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D]
+[2025.02.10-21.37.54:802][218]LogSavePackage: Moving output files for package: /Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D
+[2025.02.10-21.37.54:802][218]LogSavePackage: Moving '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Saved/BP_GMPlateformer2DE61026BD45F8C38FBA24D1A7B1779A2B.tmp' to '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D.uasset'
+[2025.02.10-21.37.54:814][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.316 ms
+[2025.02.10-21.37.54:855][218]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.10-21.37.54:855][218]LogContentValidation: Enabled validators:
+[2025.02.10-21.37.54:855][218]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.10-21.37.54:855][218]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.10-21.37.54:855][218]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.10-21.37.54:855][218]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.10-21.37.54:855][218]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.10-21.37.54:855][218]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.10-21.37.54:855][218]AssetCheck: /Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D Validating asset
+[2025.02.10-21.37.59:898][801]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.02.10-21.38.33:781][386]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D
+[2025.02.10-21.38.33:781][386]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.02.10-21.38.33:885][386]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2025.02.10-21.38.37:861][826]LogSlate: Window 'Content Browser' being destroyed
+[2025.02.10-21.38.37:869][826]LogSlate: Window 'Content Browser' being destroyed
+[2025.02.10-21.38.39:450][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.10-21.38.39:510][ 10]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D] ([2] browsable assets)...
+[2025.02.10-21.38.39:510][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D]
+[2025.02.10-21.38.39:512][ 10]LogWorldPartition: Can't find class descriptor '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C' for saving '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C'
+[2025.02.10-21.38.39:513][ 10]LogWorldPartition: Can't find class descriptor '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C' for saving '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C'
+[2025.02.10-21.38.39:513][ 10]LogSavePackage: Moving output files for package: /Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D
+[2025.02.10-21.38.39:513][ 10]LogSavePackage: Moving '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Saved/BP_PCPlateformer2D72F7CE9A4CE22E05ED70F0A42D9D0C1C.tmp' to '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.uasset'
+[2025.02.10-21.38.39:524][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.659 ms (total: 130.975 ms)
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: Enabled validators:
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.10-21.38.39:596][ 10]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.10-21.38.39:596][ 10]AssetCheck: /Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D Validating asset
+[2025.02.10-21.38.48:843][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.10-21.38.48:873][100]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D] ([2] browsable assets)...
+[2025.02.10-21.38.48:873][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D]
+[2025.02.10-21.38.48:876][100]LogWorldPartition: Can't find class descriptor '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C' for saving '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C'
+[2025.02.10-21.38.48:876][100]LogWorldPartition: Can't find class descriptor '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C' for saving '/Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.BP_PCPlateformer2D_C'
+[2025.02.10-21.38.48:876][100]LogSavePackage: Moving output files for package: /Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D
+[2025.02.10-21.38.48:877][100]LogSavePackage: Moving '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Saved/BP_PCPlateformer2D4EDD4059470978BC396CCE900FB252F9.tmp' to '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D.uasset'
+[2025.02.10-21.38.48:885][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.927 ms (total: 172.903 ms)
+[2025.02.10-21.38.48:922][100]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.10-21.38.48:922][100]LogContentValidation: Enabled validators:
+[2025.02.10-21.38.48:922][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.10-21.38.48:922][100]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.10-21.38.48:922][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.10-21.38.48:922][100]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.10-21.38.48:922][100]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.10-21.38.48:922][100]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.10-21.38.48:922][100]AssetCheck: /Game/PlateFormer2DCOntent/Blueprint/BP_PCPlateformer2D Validating asset
+[2025.02.10-21.39.38:003][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.02.10-21.39.42:140][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.10-21.39.42:178][392]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D] ([2] browsable assets)...
+[2025.02.10-21.39.42:178][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D]
+[2025.02.10-21.39.42:181][392]LogSavePackage: Moving output files for package: /Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D
+[2025.02.10-21.39.42:181][392]LogSavePackage: Moving '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Saved/BP_GMPlateformer2D6687465E49382B1632AC3A89ABF97143.tmp' to '../../../../UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D.uasset'
+[2025.02.10-21.39.42:189][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.997 ms (total: 221.900 ms)
+[2025.02.10-21.39.42:241][392]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.10-21.39.42:241][392]LogContentValidation: Enabled validators:
+[2025.02.10-21.39.42:241][392]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.10-21.39.42:241][392]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.10-21.39.42:241][392]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.10-21.39.42:241][392]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.10-21.39.42:241][392]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.10-21.39.42:241][392]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.10-21.39.42:241][392]AssetCheck: /Game/PlateFormer2DCOntent/Blueprint/BP_GMPlateformer2D Validating asset
