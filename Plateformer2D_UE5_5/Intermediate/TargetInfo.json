@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Plateformer2D_UE5_5",
+			"Path": "..\\Source\\Plateformer2D_UE5_5.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Plateformer2D_UE5_5Editor",
+			"Path": "..\\Source\\Plateformer2D_UE5_5Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

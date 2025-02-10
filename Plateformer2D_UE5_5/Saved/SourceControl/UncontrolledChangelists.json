@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/StarterContent/Architecture/Floor_400x400.uasset"
+			]
+		}
+	]
+}
