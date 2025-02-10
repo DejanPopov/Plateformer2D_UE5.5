@@ -42,12 +42,18 @@
     <Filter Include="Source\Plateformer2D_UE5_5\Private">
       <UniqueIdentifier>{64428719-F192-303E-A760-21AB3D0DDBB1}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Plateformer2D_UE5_5\Private\Plateformer2DGM.cpp">
+      <Filter>Source\Plateformer2D_UE5_5\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Plateformer2D_UE5_5\Private\TestCreation.cpp">
       <Filter>Source\Plateformer2D_UE5_5\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Plateformer2D_UE5_5\Public">
       <UniqueIdentifier>{6DAA7AB2-9F98-384C-928B-68CFF2928FE4}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Plateformer2D_UE5_5\Public\Plateformer2DGM.h">
+      <Filter>Source\Plateformer2D_UE5_5\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Plateformer2D_UE5_5\Public\TestCreation.h">
       <Filter>Source\Plateformer2D_UE5_5\Public</Filter>
     </ClCompile>

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "z:\\ue_projects\\plateformer2d_ue5.5\\plateformer2d_ue5_5\\intermediate\\build\\win64\\unrealeditor\\inc\\plateformer2d_ue5_5\\uht\\plateformer2d_ue5_5.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "z:\\ue_projects\\plateformer2d_ue5.5\\plateformer2d_ue5_5\\intermediate\\build\\win64\\x64\\plateformer2d_ue5_5editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "z:\\ue_projects\\plateformer2d_ue5.5\\plateformer2d_ue5_5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\plateformer2d_ue5_5\\definitions.plateformer2d_ue5_5.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
