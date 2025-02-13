@@ -4,11 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "PaperCharacter.h"
+#include "InputActionValue.h"
+#include "PaperFlipbook.h"
+#include "PaperFlipbookComponent.h"
 #include "Plateformer2DCharacter.generated.h"
 
 /**
  * 
  */
+
+class UInputAction;
+class UInputMappingContext;
+
 UCLASS()
 class PLATEFORMER2D_UE5_5_API APlateformer2DCharacter : public APaperCharacter
 {
@@ -33,4 +40,28 @@ private:
 
 	UPROPERTY(VisibleAnywhere, Category = "Plateformer2D|Actor Component")
 	USceneComponent* SceneComponent;
+
+protected:
+
+#pragma	region INPUT
+
+	UPROPERTY(EditDefaultsOnly, Category = "Controls|Input Actions")
+	UInputAction* MovementAction;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Controls|Input Actions")
+	UInputMappingContext* JumpAction;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Controls|Input Actions")
+	UInputMappingContext* InputMappingContext;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Controls|Input Actions")
+	int32 InputMappingPriority = 0;
+
+public:
+	
+	void EnhancedMove(const FInputActionValue& Value);
+	void EnhancedJump(const FInputActionValue& Value);
+	
+#pragma	endregion
+	
 };

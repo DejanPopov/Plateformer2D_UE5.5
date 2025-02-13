@@ -22,3 +22,11 @@ void APlateformer2DCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 }
+
+void APlateformer2DCharacter::EnhancedMove(const FInputActionValue& Value)
+{
+}
+
+void APlateformer2DCharacter::EnhancedJump(const FInputActionValue& Value)
+{
+}
