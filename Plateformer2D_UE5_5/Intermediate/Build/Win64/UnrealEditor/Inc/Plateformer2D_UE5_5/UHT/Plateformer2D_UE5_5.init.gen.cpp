@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodePlateformer2D_UE5_5_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4D73CAC7,
+				0x7BB9D791,
 				0x225C1FE5,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodePlateformer2D_UE5_5_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_Plateformer2D_UE5_5.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Plateformer2D_UE5_5(Z_Construct_UPackage__Script_Plateformer2D_UE5_5, TEXT("/Script/Plateformer2D_UE5_5"), Z_Registration_Info_UPackage__Script_Plateformer2D_UE5_5, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x4D73CAC7, 0x225C1FE5));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Plateformer2D_UE5_5(Z_Construct_UPackage__Script_Plateformer2D_UE5_5, TEXT("/Script/Plateformer2D_UE5_5"), Z_Registration_Info_UPackage__Script_Plateformer2D_UE5_5, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x7BB9D791, 0x225C1FE5));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

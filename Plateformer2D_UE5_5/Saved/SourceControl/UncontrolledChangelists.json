@@ -119,7 +119,11 @@
 				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Environment/Tileset/1_1_Tileset_Sprite_2.uasset",
 				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Environment/Tileset/1_1_Tileset_Sprite_3.uasset",
 				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Environment/Tileset/1_1_Tileset_Sprite_4.uasset",
-				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Environment/Tileset/1_1_Tileset_Sprite_5.uasset"
+				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Environment/Tileset/1_1_Tileset_Sprite_5.uasset",
+				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Input/Action/IA_Move.uasset",
+				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Input/Action/IA_Jump.uasset",
+				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Input/Mappings/IM_EnhancedInput.uasset",
+				"Z:/UE_Projects/Plateformer2D_UE5.5/Plateformer2D_UE5_5/Content/PlateFormer2DCOntent/Input/Action/IA_Jump2.uasset"
 			]
 		}
 	]

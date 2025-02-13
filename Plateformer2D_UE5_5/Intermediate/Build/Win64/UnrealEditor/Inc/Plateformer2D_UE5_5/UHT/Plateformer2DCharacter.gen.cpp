@@ -13,6 +13,8 @@ void EmptyLinkFunctionForGeneratedCodePlateformer2DCharacter() {}
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
+ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 PAPER2D_API UClass* Z_Construct_UClass_APaperCharacter();
 PLATEFORMER2D_UE5_5_API UClass* Z_Construct_UClass_APlateformer2DCharacter();
 PLATEFORMER2D_UE5_5_API UClass* Z_Construct_UClass_APlateformer2DCharacter_NoRegister();
@@ -32,9 +34,6 @@ struct Z_Construct_UClass_APlateformer2DCharacter_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Plateformer2DCharacter.h" },
 		{ "ModuleRelativePath", "Public/Plateformer2DCharacter.h" },
@@ -60,10 +59,30 @@ struct Z_Construct_UClass_APlateformer2DCharacter_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Plateformer2DCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MovementAction_MetaData[] = {
+		{ "Category", "Controls|Input Actions" },
+		{ "ModuleRelativePath", "Public/Plateformer2DCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_JumpAction_MetaData[] = {
+		{ "Category", "Controls|Input Actions" },
+		{ "ModuleRelativePath", "Public/Plateformer2DCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InputMappingContext_MetaData[] = {
+		{ "Category", "Controls|Input Actions" },
+		{ "ModuleRelativePath", "Public/Plateformer2DCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_InputMappingPriority_MetaData[] = {
+		{ "Category", "Controls|Input Actions" },
+		{ "ModuleRelativePath", "Public/Plateformer2DCharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SpringArmComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraComponent;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SceneComponent;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_MovementAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_InputMappingContext;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_InputMappingPriority;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -74,10 +93,18 @@ struct Z_Construct_UClass_APlateformer2DCharacter_Statics
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_SpringArmComponent = { "SpringArmComponent", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlateformer2DCharacter, SpringArmComponent), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArmComponent_MetaData), NewProp_SpringArmComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_CameraComponent = { "CameraComponent", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlateformer2DCharacter, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraComponent_MetaData), NewProp_CameraComponent_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_SceneComponent = { "SceneComponent", nullptr, (EPropertyFlags)0x00400000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlateformer2DCharacter, SceneComponent), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SceneComponent_MetaData), NewProp_SceneComponent_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_MovementAction = { "MovementAction", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlateformer2DCharacter, MovementAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MovementAction_MetaData), NewProp_MovementAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlateformer2DCharacter, JumpAction), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAction_MetaData), NewProp_JumpAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_InputMappingContext = { "InputMappingContext", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlateformer2DCharacter, InputMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InputMappingContext_MetaData), NewProp_InputMappingContext_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_InputMappingPriority = { "InputMappingPriority", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(APlateformer2DCharacter, InputMappingPriority), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InputMappingPriority_MetaData), NewProp_InputMappingPriority_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlateformer2DCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_SpringArmComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_CameraComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_SceneComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_MovementAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_JumpAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_InputMappingContext,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlateformer2DCharacter_Statics::NewProp_InputMappingPriority,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_APlateformer2DCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_APlateformer2DCharacter_Statics::DependentSingletons[])() = {
@@ -120,10 +147,10 @@ APlateformer2DCharacter::~APlateformer2DCharacter() {}
 struct Z_CompiledInDeferFile_FID_UE_Projects_Plateformer2D_UE5_5_Plateformer2D_UE5_5_Source_Plateformer2D_UE5_5_Public_Plateformer2DCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APlateformer2DCharacter, APlateformer2DCharacter::StaticClass, TEXT("APlateformer2DCharacter"), &Z_Registration_Info_UClass_APlateformer2DCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlateformer2DCharacter), 808577351U) },
+		{ Z_Construct_UClass_APlateformer2DCharacter, APlateformer2DCharacter::StaticClass, TEXT("APlateformer2DCharacter"), &Z_Registration_Info_UClass_APlateformer2DCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APlateformer2DCharacter), 2618517810U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Projects_Plateformer2D_UE5_5_Plateformer2D_UE5_5_Source_Plateformer2D_UE5_5_Public_Plateformer2DCharacter_h_2789115982(TEXT("/Script/Plateformer2D_UE5_5"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE_Projects_Plateformer2D_UE5_5_Plateformer2D_UE5_5_Source_Plateformer2D_UE5_5_Public_Plateformer2DCharacter_h_2768320008(TEXT("/Script/Plateformer2D_UE5_5"),
 	Z_CompiledInDeferFile_FID_UE_Projects_Plateformer2D_UE5_5_Plateformer2D_UE5_5_Source_Plateformer2D_UE5_5_Public_Plateformer2DCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE_Projects_Plateformer2D_UE5_5_Plateformer2D_UE5_5_Source_Plateformer2D_UE5_5_Public_Plateformer2DCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
